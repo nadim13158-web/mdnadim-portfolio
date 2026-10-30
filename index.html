@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07070b" />
+    <title>Md Nadim Khondokar — Graphic Designer</title>
+    <meta
+      name="description"
+      content="Md Nadim Khondokar — a self-taught graphic designer from Bangladesh. Posters, logos and social media designs, now learning front-end development."
+    />
+    <link rel="canonical" href="https://mdnadim-portfolio.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mdnadim-portfolio.netlify.app/" />
+    <meta property="og:title" content="Md Nadim Khondokar — Graphic Designer" />
+    <meta
+      property="og:description"
+      content="Self-taught graphic designer from Bangladesh, now learning front-end development."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!--
+      NETLIFY FORM (delete korben na)
+      Lukano form — Netlify er robot eta dekhe bujhe site e ekta form ache.
+      Asol form ta React er bhitore; message sorasori Netlify -> apnar email e jay.
+      Netlify te ekbar: Forms -> "Enable form detection", tarpor abar deploy.
+    -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="gotcha" hidden>
+      <input type="hidden" name="subject" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="budget" />
+      <textarea name="message"></textarea>
+      <input type="text" name="gotcha" />
+    </form>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+===============================================
+  CHOBI LAGANOR SOHOJ UPAY
+===============================================
+
+VERCEL E:
+  Apnar chobi ta MAIN project folder e rakhun (package.json er pashe).
+  Naam je kono kichu: photo.jpg, Nadim.png, IMG_2024.JPG ...
+  Shudhu EKTA chobi rakhben. Tarpor GUIDE.md er "Vercel" ongsho follow korun.
+
+NETLIFY TE:
+  "dist" folder e chobi rakhun, naam din: photo
+
+Bistarito: GUIDE.md
