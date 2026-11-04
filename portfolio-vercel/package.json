@@ -1,0 +1,7 @@
+{
+  "name": "Nadim-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MD Nadim Khondokar — Graphic Designer portfolio (static site + /api/contact serverless email endpoint for Vercel). No dependencies.",
+  "engines": { "node": ">=18" }
+}
